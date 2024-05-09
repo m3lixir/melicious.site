@@ -141,17 +141,43 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+ █████   █████            ████               █████████                              
+░░███   ░░███            ░░███              ███░░░░░███                             
+ ░███    ░███  █████ ████ ░███  ████████   ███     ░░░   ██████  ████████  ████████ 
+ ░███    ░███ ░░███ ░███  ░███ ░░███░░███ ░███          ███░░███░░███░░███░░███░░███
+ ░░███   ███   ░███ ░███  ░███  ░███ ░███ ░███         ░███ ░███ ░███ ░░░  ░███ ░███
+  ░░░█████░    ░███ ░███  ░███  ░███ ░███ ░░███     ███░███ ░███ ░███      ░███ ░███
+    ░░███      ░░████████ █████ ████ █████ ░░█████████ ░░██████  █████     ░███████ 
+     ░░░        ░░░░░░░░ ░░░░░ ░░░░ ░░░░░   ░░░░░░░░░   ░░░░░░  ░░░░░      ░███░░░  
+                                                                           ░███     
+                         Crafting Tomorrow's Safeguards Today              █████    
+                                                                          ░░░░░     
 
-Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+********************************************************************************
+********************************************************************************
+
+Welcome to VulnCorp's Secure Database Access Portal. Unauthorized access is
+strictly prohibited and will result in immediate disciplinary action. All
+activity is monitored and recorded. Unauthorized access will be investigated
+and punished to the fullest extent of the law.
+
+By accessing this system, you acknowledge that all data stored and processed
+here is confidential and should not be disclosed to unauthorized parties.
+
+If you are not an authorized person, please log out immediately from the system.
+
+********************************************************************************
+
+!! Security Reminder !!
+
+- Securely manage your credentials; never share them.
+- Report any suspicious activity immediately.
+- Ensure your workspace is secure; type 'exit' to log out.
+- For help or to view commands, type 'help'.
+
+********************************************************************************
+
+Login successful. Welcome back, recruiter0462!
+
 `;
 };
