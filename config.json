@@ -1,20 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://github.com/melisaksavich/melicious.site/blob/main/README.md",
+  "title": "VulnCorp | Recruitment Portal",
+  "name": "Melisa K. Savich",
+  "ascii": "",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "melisaksavich",
+    "linkedin": "melisaksavich"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "email": "mel@cybergal.com",
+  "ps1_hostname": "vulncorp",
+  "ps1_username": "recruiter0642",
+  "repo": "",
+  "resume_url": "",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "",
+    "patreon": ""
   },
   "colors": {
     "light": {
@@ -27,13 +27,13 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+      "background": "#000000",
+      "foreground": "#39FF14",
+      "yellow": "#80FF80",
+      "green": "#00CC00",
+      "gray": "#002200",
+      "blue": "#004400",
+      "red": "#006600"
     }
   }
 }
