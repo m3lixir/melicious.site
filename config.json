@@ -18,22 +18,22 @@
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#000000",
+      "foreground": "#00FF00",
+      "yellow": "#00FF00",
+      "green": "#00FF00",
+      "gray": "#00AA00",
+      "blue": "#00CC00",
+      "red": "#009900"
     },
     "dark": {
       "background": "#000000",
-      "foreground": "#39FF14",
-      "yellow": "#80FF80",
-      "green": "#00CC00",
-      "gray": "#002200",
-      "blue": "#004400",
-      "red": "#006600"
+      "foreground": "#00FF00",
+      "yellow": "#00FF00",
+      "green": "#00FF00",
+      "gray": "#00AA00",
+      "blue": "#00CC00",
+      "red": "#009900"
     }
   }
 }
